@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This file is for your main application CSS */
+.dragover {
+    opacity: 0.5;
+  }
+
+.highlight {
+  border-radius: 3px;
+  animation: highlight 5000ms ease-out;
+}
+
+@keyframes highlight {
+  0% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: blue;
+  }
+}
